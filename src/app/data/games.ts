@@ -1,0 +1,59 @@
+export interface Game {
+  id: string;
+  title: string;
+  thumbnail: string;
+  category: string;
+  description: string;
+  iframeUrl: string;
+}
+
+export const games: Game[] = [
+  {
+    id: "space-voyager",
+    title: "Space Voyager",
+    thumbnail: "https://images.unsplash.com/photo-1731579884309-ecb947ca6144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzRCUyMHNwYWNlJTIwc2hvb3RlciUyMGdhbWUlMjBzaGlwfGVufDF8fHx8MTc3MjY5MDczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    category: "Action",
+    description: "Navigate through treacherous asteroid fields and survive the deep space journey.",
+    iframeUrl: "https://itch.io/embed-upload/231168?color=333333" // Example open source game
+  },
+  {
+    id: "pixel-quest",
+    title: "Pixel Quest",
+    thumbnail: "https://images.unsplash.com/photo-1732638523716-f2cf1316133d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaXhlbCUyMGFydCUyMHBsYXRmb3JtZXIlMjBsYW5kc2NhcGV8ZW58MXx8fHwxNzcyNjkwNzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    category: "Platformer",
+    description: "A retro-style adventure where you jump over obstacles and collect gems.",
+    iframeUrl: "https://itch.io/embed-upload/1529141?color=333333"
+  },
+  {
+    id: "retro-racer",
+    title: "Retro Racer",
+    thumbnail: "https://images.unsplash.com/photo-1768407923673-8688e9097f52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcmNhZGUlMjByZXRybyUyMGdhbWUlMjBjb25zb2xlJTIwY29udHJvbGxlciUyMHZpZGVvJTIwZ2FtZSUyMGJhY2tncm91bmR8ZW58MXx8fHwxNzcyNjkwNzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    category: "Racing",
+    description: "Speed through neon-lit streets in this 8-bit inspired racing game.",
+    iframeUrl: "https://itch.io/embed-upload/46944?color=333333"
+  },
+  {
+    id: "neon-blitz",
+    title: "Neon Blitz",
+    thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "Arcade",
+    description: "Fast-paced arcade action with neon graphics and high-score chasing.",
+    iframeUrl: "https://itch.io/embed-upload/281691?color=333333"
+  },
+  {
+    id: "tower-defense-pro",
+    title: "Tower Defense Pro",
+    thumbnail: "https://images.unsplash.com/photo-1614027164847-1b2809eb7b9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "Strategy",
+    description: "Protect your base from waves of enemies by building strategic defenses.",
+    iframeUrl: "https://itch.io/embed-upload/214309?color=333333"
+  },
+  {
+    id: "block-puzzle",
+    title: "Block Puzzle",
+    thumbnail: "https://images.unsplash.com/photo-1605898399745-976e3d231a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    category: "Puzzle",
+    description: "Classic block-matching puzzle game that challenges your spatial reasoning.",
+    iframeUrl: "https://itch.io/embed-upload/147253?color=333333"
+  }
+];
